@@ -1,0 +1,9 @@
+".container": {
+	backgroundColor:"lightgray"
+},
+"Label": {
+	top: 100,
+	width: Ti.UI.SIZE,
+	height: Ti.UI.SIZE,
+	color: "#abc"
+} 

@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label">Esta es mi primera etiqueta hecha para el Curso de Titanium + Alloy</Label>
+		<Button id="button" onClick="mensaje">Mensaje</Button>
+	</Window>
+</Alloy>

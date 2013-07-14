@@ -1,0 +1,17 @@
+".container": {
+	backgroundColor:"maroon"
+},
+"Label": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_LEFT,
+	color: "#ccc",
+	font: {
+		fontSize: 26,
+		font: 'customFont',
+
+	},
+ 
+},
+
+"Button": {
+	top:350
+}

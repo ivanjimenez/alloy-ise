@@ -1,0 +1,7 @@
+<Alloy>
+    <Window layout="vertical">
+        <Require id="button1" src="ok" type="view"/>
+        <Require id="button2" src="ok" type="view"/>
+        <Require id="button3" src="ok" type="view"/>
+    </Window>
+</Alloy>

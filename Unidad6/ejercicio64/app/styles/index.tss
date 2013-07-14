@@ -1,0 +1,33 @@
+".container": {
+	
+	backgroundGradient: {
+        type: 'radial',
+        startPoint: { x: 25, y: 25},
+        endPoint: { x: 25, y: 25 },
+        colors: [ 'cyan', 'blue'],
+        startRadius: '90%',
+        endRadius: 0,
+        backfillStart: true
+    }
+},
+"Label": {
+	textAlign: Ti.UI.TEXT_ALIGNMENT_CENTER,
+	color: "#ccc",
+	top:0,
+	font: {
+		fontSize: 20,
+		font: 'customFont'
+
+	},
+ 
+},
+
+"Button": {
+	bottom:100,
+	height: 50,
+	width: 150,
+	right: "10%",
+	backgroundColor: "#ddd"
+
+
+}

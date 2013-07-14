@@ -1,0 +1,37 @@
+<Alloy>
+	<TabGroup>
+		<Tab title="Filas">
+			<Window title="Filas">
+				<TableView>
+					<TableViewRow><Label>Soy la Fila 1</Label></TableViewRow>
+					<TableViewRow><Label>Soy la Fila  2</Label></TableViewRow>
+					<TableViewRow><Label>Soy la Fila  3</Label></TableViewRow>
+					<TableViewRow><Label>Soy la Fila  4</Label></TableViewRow>
+					<TableViewRow><Label>Soy la Fila  5</Label></TableViewRow>
+				</TableView>
+			</Window>
+		</Tab>
+		<Tab title="Filas y Secciones">
+			<Window title="Sections &amp; Rows">
+				<TableView filterAttribute="title">
+					<SearchBar platform="android,ios"/>
+					<TableViewSection headerTitle="Section 1">
+						<TableViewRow title="Row 1"/>
+						<TableViewRow title="Row 2"/>
+						<TableViewRow title="Row 3"/>
+					</TableViewSection>
+					<TableViewSection headerTitle="Section 2">
+						<TableViewRow title="Row 1"/>
+						<TableViewRow title="Row 2"/>
+						<TableViewRow title="Row 3"/>
+					</TableViewSection>
+					<TableViewSection headerTitle="Section 3">
+						<TableViewRow title="Row 1"/>
+						<TableViewRow title="Row 2"/>
+						<TableViewRow title="Row 3"/>
+					</TableViewSection>
+				</TableView>
+			</Window>
+		</Tab>
+	</TabGroup>
+</Alloy>

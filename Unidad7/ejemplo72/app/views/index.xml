@@ -1,0 +1,16 @@
+<Alloy>
+	<TabGroup>
+		<Tab id="tab1" title="Opción 1">
+			<Window id="win1" title="Soy Win1">
+				<Label id="label1" />
+				<Button id="button" > Abrir Win 3 </Button>
+			</Window>
+		</Tab>
+
+		<Tab id="tab2" title="Opción 2">
+			<Window id="win2" title="Soy Win2">
+				<Label id="label2" />
+			</Window>
+		</Tab>	
+	</TabGroup>
+</Alloy>

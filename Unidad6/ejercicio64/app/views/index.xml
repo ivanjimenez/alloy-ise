@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label">Esta es la etiqueta del Ejercicio64</Label>
+		<Button>Ok</Button>
+	</Window>
+</Alloy>

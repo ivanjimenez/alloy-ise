@@ -1,0 +1,6 @@
+<Alloy>
+	<Window id="win3">
+		<Label id="label3">Soy Win 3 </Label>
+		
+	</Window>
+</Alloy>

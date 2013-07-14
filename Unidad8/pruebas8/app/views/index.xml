@@ -1,0 +1,6 @@
+<Alloy>
+	<Window class="container">
+		<Label id="label" >Mi modelo:</Label>
+		<Label id="label2" bottom="200" />
+	</Window>
+</Alloy>

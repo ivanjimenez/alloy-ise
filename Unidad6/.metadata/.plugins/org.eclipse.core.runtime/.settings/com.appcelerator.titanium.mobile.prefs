@@ -1,0 +1,3 @@
+ANDROID_NDK_PATH=/Library/android-ndk-r8b
+ANDROID_SDK_PATH=/Library/android-sdk-macosx
+eclipse.preferences.version=1
