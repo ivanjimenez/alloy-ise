@@ -1,0 +1,5 @@
+<Alloy>
+    <Window class="container">
+      <Label id="label">Mi primera etiqueta</Label> 
+    </Window> 
+</Alloy>

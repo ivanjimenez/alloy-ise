@@ -4,8 +4,10 @@ function Controller() {
         ("leftButton" == evt.clicksource || "leftPane" == evt.clicksource || "leftView" == evt.clicksource) && Ti.API.info("Annotation " + evt.title + ", left button clicked.");
     }
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
+    this.__controllerPath = "index";
     arguments[0] ? arguments[0]["__parentSymbol"] : null;
     arguments[0] ? arguments[0]["$model"] : null;
+    arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
     var __defers = {};
@@ -15,9 +17,9 @@ function Controller() {
     $.__views.win && $.addTopLevelView($.__views.win);
     var __alloyId0 = [];
     $.__views.mountainView = Ti.Map.createAnnotation({
+        latitude: 37.390749,
+        longitude: -122.081651,
         id: "mountainView",
-        latitude: "37.390749",
-        longitude: "-122.081651",
         title: "Appcelerator Headquarters",
         subtitle: "Mountain View, CA",
         pincolor: Titanium.Map.ANNOTATION_RED,

@@ -1,7 +1,9 @@
 function Controller() {
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
+    this.__controllerPath = "win3";
     arguments[0] ? arguments[0]["__parentSymbol"] : null;
     arguments[0] ? arguments[0]["$model"] : null;
+    arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
     $.__views.win3 = Ti.UI.createWindow({
@@ -16,6 +18,7 @@ function Controller() {
     $.__views.win3.add($.__views.label3);
     exports.destroy = function() {};
     _.extend($, $.__views);
+    $.win3.addEventListener("tipo_de_evento", function() {});
     _.extend($, exports);
 }
 

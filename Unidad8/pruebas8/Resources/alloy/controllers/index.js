@@ -1,7 +1,9 @@
 function Controller() {
     require("alloy/controllers/BaseController").apply(this, Array.prototype.slice.call(arguments));
+    this.__controllerPath = "index";
     arguments[0] ? arguments[0]["__parentSymbol"] : null;
     arguments[0] ? arguments[0]["$model"] : null;
+    arguments[0] ? arguments[0]["__itemTemplate"] : null;
     var $ = this;
     var exports = {};
     $.__views.index = Ti.UI.createWindow({
@@ -13,7 +15,7 @@ function Controller() {
         width: Ti.UI.SIZE,
         height: Ti.UI.SIZE,
         color: "#000",
-        text: "Mi modelo",
+        text: "Mi modelo:",
         id: "label"
     });
     $.__views.index.add($.__views.label);
@@ -28,8 +30,8 @@ function Controller() {
     exports.destroy = function() {};
     _.extend($, $.__views);
     var info = Alloy.createModel("info", {
-        nombre: "Green Eggs and Ham",
-        direccion: "Dr. Seuss"
+        nombre: "Nathaniel Fisher",
+        direccion: "Daton St"
     });
     var nombre = info.get("nombre");
     var direccion = info.get("direccion");

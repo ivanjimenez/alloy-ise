@@ -1,5 +1,5 @@
 
-$.idelemento.addEventListener('tipo_de_evento', function(e) {
+$.win3.addEventListener('tipo_de_evento', function(e) {
     // Aquí escribo el código que quiero que se realice
     // después de hacer click en "idelemnto".
     
